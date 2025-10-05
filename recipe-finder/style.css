@@ -1,0 +1,35 @@
+#logo {
+    width: 30%;
+    height: 30%;
+    display: block;
+    margin: 5% auto 1% auto;
+}
+
+.search-bar {
+  display: flex;
+  flex-direction: column;  
+  align-items: center;     
+  gap: 15px;          
+}
+
+#search-input {
+  height: 30px;
+  width: 25%;
+  border: 1px solid black;
+  border-radius: 20px;
+  padding-left: 10px;
+  font-size: large;   
+}
+
+.btn-group {
+  display: flex;          
+  gap: 10px;               
+}
+
+.btn-group button {
+  padding: 12px 24px;
+  font-size: 18px; 
+  border-radius: 8px;
+  cursor: pointer;
+  border: none;
+}
