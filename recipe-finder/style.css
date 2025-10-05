@@ -3,6 +3,11 @@
     height: 30%;
     display: block;
     margin: 5% auto 1% auto;
+    transition: transform 0.1s ease;
+}
+
+#logo:hover {
+  transform: scale(1.08);
 }
 
 .search-bar {
@@ -10,20 +15,24 @@
   flex-direction: column;  
   align-items: center;     
   gap: 15px;          
+  transform: scale(1.1);
 }
 
 #search-input {
   height: 30px;
   width: 25%;
-  border: 1px solid black;
-  border-radius: 20px;
+  border: 0;
+  border-left: 4px solid #f18826;
+  border-bottom: 4px solid #f18826;
+  border-radius: 10px;
   padding-left: 10px;
   font-size: large;   
 }
 
 .btn-group {
+  transform: scale(1.2);
   display: flex;          
-  gap: 10px;               
+  gap: 30px;               
 }
 
 .btn-group button {
@@ -32,4 +41,18 @@
   border-radius: 8px;
   cursor: pointer;
   border: none;
+  color: white;
+  background-color: #f18826;
+  transition: transform 0.3s ease, background-color 0.3s ease;
 }
+
+.btn-group button:hover {
+  background-color: #ff7b00;
+  transform: scale(1.08);
+}
+
+
+
+
+
+
